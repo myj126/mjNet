@@ -1,0 +1,12 @@
+# mjNet 依赖说明
+#
+# 本程序【完全不需要任何第三方库】即可运行，只用到 Python 标准库
+# （tkinter / socket / ctypes / urllib / subprocess ...）。
+#
+# 下面这一项是可选的增强：
+#   装上 psutil 后，连接数统计更精确、网速可支持更多虚拟网卡场景，
+#   不装也一切正常（程序会自动退回纯标准库实现）。
+#
+# 安装方式（可选）：
+#   pip install -r requirements.txt
+psutil>=5.9 ; python_version >= "3.8"

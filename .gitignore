@@ -1,0 +1,24 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 打包相关的中间产物（dist/ 里的成品是故意提交的）----
+build/
+.build-venv/
+.build/
+*.spec
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ---- 运行期产生的临时文件 ----
+*.log
+mjnet-report-*.txt
+mjnet-crash.log
